@@ -1,0 +1,26 @@
+ Section1 : Numbers, Operators, and Comments
+ =========================================================
+ from random import randint
+choice = randint(1,10)
+# NO TOUCHING PLEASE---------------
+ 
+# YOUR CODE GOES HERE:
+if choice == 7:
+    print("lucky")
+else:
+    print("unlucky")
+    ===========================================================
+    
+from random import choice
+food = choice(['apple','grape', 'bacon', 'steak', 'worm'])
+# NO TOUCHING ======================================
+ 
+ 
+# YOUR CODE GOES HERE vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+if food == 'apple' or food == 'grape':
+    print ("fruit")
+elif food == 'bacon' or food == 'steak':
+    print("meat")
+else:
+    print("yuck")
+    ====================================================================================
